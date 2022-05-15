@@ -1,0 +1,34 @@
+.circle {
+  width: 135px;
+  height: 175px;
+  position: absolute;
+  right: 205px;
+  top: 190px;
+  border-radius: 50%;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+  filter: blur(1px);
+  opacity: 0.6;
+  transform: rotateY(340deg);
+  transform:skew(3deg, 0);
+  animation: blinker 4s linear infinite;
+}
+.circle-2{
+  width: 125px;
+  height: 175px;
+  position: absolute;
+  right: 200px;
+  bottom: 200px;
+  border-radius: 50%;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+  filter: blur(1px);
+  opacity: 0.6;
+  transform: rotateY(340deg);
+  transform:skew(3deg, 0);
+  animation: blinker 5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.2;
+  }
+}

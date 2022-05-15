@@ -1,0 +1,12 @@
+.line__timeline-anim{
+	animation: timeline 6s;
+}
+@keyframes timeline {
+  0% {
+    width: 0;
+  }
+  40% {
+    width: 314px;
+    background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+  }
+}

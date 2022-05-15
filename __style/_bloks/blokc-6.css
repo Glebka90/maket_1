@@ -1,0 +1,69 @@
+.block-6 {
+  width: 1341.62px;
+  height: 618.8px;
+  position: absolute;
+  top: 5331.2px;
+  left: 266.38px;
+}
+.loader__block-6 {
+}
+.heading__block-6 {
+  position: absolute;
+  left: 173.62px;
+  top: 59.8px;
+}
+.cards__block-6 {
+  margin-top: 239.8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card__block-6 {
+  width: 300px;
+  height: 394px;
+  transition: 0.8s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card__block-6:hover {
+  width: 300px;
+  height: 394px;
+  transform: scale(1.2) translate(0%, -5%);
+  transition: 0.5s;
+  border-radius: 20px;
+  box-shadow: 4px 4px 0 0 rgba(200, 154, 252, 0.3);
+}
+.name-teacher {
+  margin-top: 40px;
+  font-family: Roboto-Light;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.profession-teacher {
+  margin-top: 15px;
+}
+.btn__cards {
+  width: 150px;
+  height: 45px;
+  margin-top: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  font-family: Roboto-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.btn__cards:hover {
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+.btn__cards:active {
+  border: none;
+  background: linear-gradient(94.26deg, #b48ae4 9.51%, #6555ce 90.23%);
+}

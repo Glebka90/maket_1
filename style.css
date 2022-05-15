@@ -1,0 +1,90 @@
+@import url(./__style/_page_style/box-sizin.css);
+@import url(./__style/_page_style/resert_style_brouser.css);
+@import url(./__style/_bloks/header.css);
+@import url(./__style/_bloks/block-1.css);
+@import url(./__style/_bloks/block-2.css);
+@import url(./__style/_bloks/block-3.css);
+@import url(./__style/_bloks/block-4.css);
+@import url(./__style/_bloks/block-5.css);
+@import url(./__style/_bloks/blokc-6.css);
+@import url(./__style/_bloks/footer.css);
+/* Анимация */
+@import url(./__style/_animation/anim-number-5.css);
+@import url(./__style/_animation/timeline.css);
+@import url(./__style/experement.css);
+@import url(./__style/_animation/pc_animation.css);
+@import url(./__style/_animation/logo_animation.css);
+/* Анимация */
+/* Картинки  block-3 позиционирование(что бы не засирать код) */
+@import url(./__style/_bloks/_block-3_img/pc_position.css);
+@import url(./__style/_bloks/_block-3_img/flash_position.css);
+@import url(./__style/_bloks/_block-3_img/usb_position.css);
+/* Картинки  block-3 позиционирование(что бы не засирать код) */
+/* позиции line block-5 */
+@import url(./__style/_bloks/_block-5/block-5_line.css);
+/* позиции line block-5 */
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.body {
+  width: 1920px;
+  height: 6099px;
+  margin: 0 auto;
+  position: relative;
+}
+.contetnt {
+  width: 1920px;
+  height: 5899px;
+  display: block;
+  background-image: url(./__img/bgc.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.heading__content {
+  font-family: Roboto-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.text__content {
+  font-family: Roboto-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.text__style {
+  font-family: Roboto-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url(./__style/_font/_roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-bold";
+  src: url(./__style/_font/_roboto/Roboto-Bold.ttf);
+}

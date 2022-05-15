@@ -1,0 +1,62 @@
+.pc__block-3 img {
+  position: absolute;
+  
+}
+.pc__block-3 {
+  width: 100px;
+  height: 87.51px;
+  position: absolute;
+  left: 158px;
+  top: 193px;
+  transition: 0.5s;
+}
+
+.pc-vector {
+  left: 6.25px;
+  top: 6.25px;
+}
+
+.pc-vector-1 {
+  left: 6.25px;
+  bottom: 6.25px;
+}
+.pc-vector-2 {
+  left: 6.25px;
+  bottom: 12.5px;
+}
+.pc-vector-3,
+.pc-vector-4,
+.pc-vector-5 {
+  right: 6.25px;
+}
+.pc-vector-3 {
+  top: 6.25px;
+}
+.pc-vector-4 {
+  top: 12.5px;
+}
+.pc-vector-5 {
+  top: 18.75px;
+}
+.pc-vector-6 {
+  left: 57.81px;
+  top: 20.31px;
+}
+.pc-vector-7 {
+  right: 0;
+}
+.pc-vector-8 {
+  bottom: 0;
+}
+.pc-vector-9 {
+  right: 3px;
+  bottom: 0;
+}
+.pc-vector-11 {
+  right: 6.25px;
+  top: 37px;
+}
+.pc-vector-12 {
+  left: 32.81px;
+  top: 37.5px;
+}

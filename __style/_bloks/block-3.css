@@ -1,0 +1,48 @@
+.block-3 {
+  width: 1296px;
+  height: 549px;
+  position: absolute;
+  top: 2654px;
+  left: 312px;
+}
+.heading-text__block-3 {
+  width: 1296px;
+  position: absolute;
+  top: 347px;
+  display: flex;
+  justify-content: space-between;
+}
+.heading__heading-text {
+  width: 416px;
+  height: 68px;
+  font-family: Roboto-Light;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+}
+.info__block-3 {
+  width: 1238px;
+  margin-left: 29px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}
+.text__info-block-3 {
+  width: 358px;
+  height: 104px;
+  text-align: center;
+}
+.pc__block-3:hover {
+  transform: scale(1.2);
+}
+.flash__block-3:hover {
+  transform: scale(1.2);
+}
+.usb__block-3:hover {
+  transform: scale(1.2);
+}

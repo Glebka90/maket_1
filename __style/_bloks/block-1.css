@@ -1,0 +1,28 @@
+.block-1 {
+  width: 1301px;
+  height: 542px;
+  margin: 0 auto;
+  padding-top: 200px;
+  position: relative;
+}
+.square__block-1 {
+  position: absolute;
+}
+.pc__block-1 {
+  position: absolute;
+  left: 40px;
+  top: 296px;
+  animation: fly 5s infinite;
+}
+.heading__block-1 {
+  position: absolute;
+  right: 139px;
+  top: 269px;
+
+}
+.text__block-1 {
+  width: 636px;
+  position: absolute;
+  right: 0;
+  top: 381px;
+}

@@ -1,0 +1,27 @@
+.usb__block-3 img {
+  position: absolute;
+}
+.usb__block-3 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 1038px;
+  top: 187px;
+  transition: 0.5s;
+}
+.usb-vector {
+  left: 9.38px;
+  top: 9.38px;
+}
+.usb-vector-1 {
+  left: 9.38px;
+  top: 15.63px;
+}
+.usb-vector-2 {
+  right: 9.38px;
+  bottom: 15.63px;
+}
+.usb-vector-3 {
+  right: 9.38px;
+  bottom: 9.38px;
+}

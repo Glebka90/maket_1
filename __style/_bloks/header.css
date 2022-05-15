@@ -1,0 +1,215 @@
+.header {
+  width: 1920px;
+  height: 960px;
+  position: relative;
+}
+.logo__header {
+  left: 80px;
+  top: 40px;
+  position: absolute;
+  z-index: 2;
+}
+.logo-2__header {
+  width: 19, 98px;
+  height: 29px;
+  position: absolute;
+  left: 100px;
+  top: 51px;
+}
+.background-img__header {
+  width: 1920px;
+  height: 960px;
+  position: absolute;
+  z-index: -1;
+}
+.menu__header {
+  width: 745px;
+  height: 24px;
+  left: 642px;
+  top: 48px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-nav__menu {
+  font-family: "Roboto-Light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.btn-nav__menu:hover {
+  text-decoration: underline;
+}
+.btn__header {
+  width: 183px;
+  height: 44px;
+  right: 80px;
+  top: 38px;
+  position: absolute;
+  border-radius: 50px;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+.btn__header:hover {
+  cursor: pointer;
+}
+.btn__header:active {
+  background: linear-gradient(94.26deg, #dcbeff 9.51%, #8c7aff 90.23%);
+}
+.text-btn {
+  font-family: Roboto-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+.headline__header {
+  width: 920px;
+  left: 312px;
+  top: 270px;
+  position: absolute;
+  font-family: Roboto-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.watches__header {
+  width: 509px;
+  left: 312px;
+  top: 500px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.time-block__watches {
+  width: 102px;
+  height: 102px;
+  padding-top: 15px;
+  background: #121212;
+  text-align: center;
+}
+.number__time-block {
+  font-family: Roboto-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 140%;
+  color: #ffffff;
+}
+.value__time-block {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.footer__header {
+  width: 1920px;
+  height: 130px;
+  background: #121212;
+  bottom: 0;
+  position: absolute;
+}
+.footer__btn {
+  width: 169px;
+  height: 44px;
+  position: absolute;
+  left: 342px;
+  top: 43px;
+  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+  border-radius: 50px;
+}
+.footer__btn:hover {
+  cursor: pointer;
+}
+.footer__btn:active {
+  background: linear-gradient(94.78deg, #f76358 11.19%, #661868 93.72%);
+}
+.info__footer-header {
+  width: 251px;
+  position: absolute;
+  left: 562px;
+  top: 36px;
+  display: flex;
+}
+.list__info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.block__info {
+  font-family: Roboto-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  opacity: 0.4;
+  color: #ffffff;
+}
+.quantity__info {
+  font-family: Roboto-bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.grafic__timeline {
+  width: 714px;
+}
+.line__timeline {
+  width: 714px;
+  height: 6px;
+  position: absolute;
+  left: 894px;
+  top: 67px;
+  background: #ffffff;
+}
+.line__timeline-anim {
+  width: 314px;
+  height: 6px;
+  position: absolute;
+  left: 894px;
+  top: 67px;
+  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 60%);
+}
+.value-column__info {
+  display: flex;
+  position: absolute;
+  right: 747px;
+  top: 36px;
+}
+.valu-graphics {
+  width: 714px;
+  position: absolute;
+  left: 894px;
+  top: 78px;
+  display: flex;
+  justify-content: space-between;
+}
+.value-line__timeline {
+  font-family: Roboto-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.4;
+}
+.name-column__info {
+  position: absolute;
+  left: 894px;
+  top: 35px;
+  font-family: Roboto-Light;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  opacity: 0.4;
+}

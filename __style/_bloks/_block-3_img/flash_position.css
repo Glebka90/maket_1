@@ -1,0 +1,21 @@
+.flash__block-3 img {
+  position: absolute;
+}
+.flash__block-3 {
+  position: absolute;
+  left: 626.12px;
+  top: 187px;
+  transition: 0.5s;
+}
+.flash-vector {
+  left: 15.6px;
+  top: 6.25px;
+}
+.flash-vector-1 {
+  left: 25px;
+  top: 6.25px;
+}
+.flash-vector-3 {
+  left: 6.25px;
+  top: 31.13px;
+}
